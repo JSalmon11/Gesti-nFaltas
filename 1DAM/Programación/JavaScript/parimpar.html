@@ -1,0 +1,24 @@
+<html><body><script type="text/javascript">
+
+/*Pedir un número, si es par, indicarlo, si es impar ver si es múltiplo de 3 o 5 o ambos.*/
+
+var iNúmero = parseInt(prompt("Introduce un número"));
+
+if (iNúmero%2 == 0){
+	document.write ("El número " +iNúmero+ " es par");
+}else{
+	document.write ("El número " +iNúmero+ " es impar");
+	if (iNúmero%3 == 0){
+		document.write (" y es múltiplo de 3");
+		if (iNúmero%5 == 0){
+			document.write (" y también de 5");
+		}
+	}
+	else{
+		if (iNúmero%5 == 0){
+			document.write (" y es múltiplo de 5");
+		}
+	}
+}
+
+</script></body></html>

@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\Google Drive\Mis cosa de clase\2DAM\Procesos\ECLIPSE\.metadata\.plugins\org.eclipse.jdt.core
+3721790715.index
+1865797976.index

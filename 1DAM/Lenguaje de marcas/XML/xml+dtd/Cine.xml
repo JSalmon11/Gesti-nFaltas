@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine [
+<!ELEMENT cine (salas ,cartelera)>
+<!ELEMENT salas (sala)+>
+<!ELEMENT sala (aforo)>
+<!ELEMENT aforo (#PCDATA)>
+<!ATTLIST sala id ID #REQUIRED
+                              accesibilidad (SI|NO) #REQUIRED>
+
+<!ELEMENT cartelera (pelicula)+>
+<!ELEMENT pelicula (titulo , nacionalidad , tituloOriginal? , reparto)>
+<!ATTLIST pelicula año CDATA "2019"
+                                      clasificacion (tp | 8 | 12 | 16 | 18) #REQUIRED 
+                                      salas IDREFS #IMPLIED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT tituloOriginal (#PCDATA)>
+<!ELEMENT reparto (actor)+>
+<!ELEMENT actor (#PCDATA)>
+]>
+<cine>
+  <salas>
+    <sala id="S1" accesibilidad="SI">
+      <aforo>300</aforo>
+    </sala>
+    <sala id="S2" accesibilidad="SI">
+      <aforo>250</aforo>
+    </sala>
+    <sala id="S3" accesibilidad="NO">
+      <aforo>400</aforo>
+    </sala>
+  </salas>
+  
+  <cartelera>
+  <pelicula salas="S1" clasificacion="tp" año="2018">
+      <titulo>Lo que el viento se llevó</titulo>
+      <nacionalidad>USA</nacionalidad>
+      <tituloOriginal>the wind</tituloOriginal>
+      <reparto>
+        <actor>El orejas</actor>
+        <actor>La mujer de Laurence Oliver</actor>
+      </reparto>
+</pelicula>
+<pelicula salas="S1 S2" clasificacion="8">
+      <titulo>Qué he hecho yo para merecer esto</titulo>
+      <nacionalidad>ESP</nacionalidad>
+      <reparto>
+        <actor>Carmen Maura</actor>
+      </reparto>
+</pelicula>
+<pelicula salas="S1 S2 S3" clasificacion="16" año="2016">
+      <titulo>Pasión y gloria</titulo>
+      <nacionalidad>ESP</nacionalidad>
+      <reparto>
+        <actor>Sarita Montiel</actor>
+        <actor>Laurence Oliver</actor>
+      </reparto>
+</pelicula>
+  </cartelera>
+</cine>

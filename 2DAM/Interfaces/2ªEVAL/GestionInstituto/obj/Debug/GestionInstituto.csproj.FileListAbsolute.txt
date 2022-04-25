@@ -1,0 +1,11 @@
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\bin\Debug\GestionInstituto.exe.config
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\bin\Debug\GestionInstituto.exe
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\bin\Debug\GestionInstituto.pdb
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.csproj.AssemblyReference.cache
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.AltaAlumno.resources
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.Form1.resources
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.Properties.Resources.resources
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.csproj.GenerateResource.cache
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.csproj.CoreCompileInputs.cache
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.exe
+D:\Compartir\Interfaces\2ªEVAL\GestionInstituto\obj\Debug\GestionInstituto.pdb

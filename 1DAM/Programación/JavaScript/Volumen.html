@@ -1,0 +1,35 @@
+<html>
+	<body>
+		<script>
+
+
+
+    var fRadio  = parseFloat(prompt("Dame el radio"));
+    var fAltura = parseFloat(prompt("Dame la altura"));
+    var fPi     = parseFloat(3.14159265358979323846);
+
+    var fABase = parseFloat(fPi * fRadio * fRadio);
+    var fALateral = parseFloat(2 * fPi * fRadio * fAltura);
+    var fATotal = parseFloat(2 * fRadio * fALateral);
+    var fVolumen = parseFloat(fABase * fAltura);
+
+		var sMedida = "Metros";
+
+    var sRadio       = "\nRadio:\t\t"        + fRadio			+ "\t\t\t\t\t"+ sMedida;
+    var sAltura      = "\nAltura:\t\t"       + fAltura		+ "\t\t\t\t\t"+ sMedida;
+    var sAreaBase    = "\nArea base:\t"      + fABase			+ "\t"+ sMedida;
+    var sAreaLateral = "\nArea Lateral:\t"   + fALateral	+ "\t"+ sMedida;
+    var sAreaTotal   = "\nArea Total:\t"     + fATotal		+ "\t"+ sMedida;
+    var sVolumen     = "\nVolumen:\t\t"      + fVolumen		+ "\t"+ sMedida;
+
+    alert("Datos del cilindro: " +sRadio      +
+                                  sAltura     +
+                                  sAreaBase   +
+                                  sAreaLateral+
+                                  sAreaTotal  +
+                                  sVolumen);
+
+
+    </script>
+	</body>
+</html>

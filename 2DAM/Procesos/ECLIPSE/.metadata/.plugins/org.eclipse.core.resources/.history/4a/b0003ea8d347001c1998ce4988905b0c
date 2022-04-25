@@ -1,0 +1,12 @@
+package parking;
+
+public class afe implements Runnable {
+
+	public afe() {
+	}
+
+	@Override
+	public void run() {
+	}
+
+}

@@ -1,0 +1,14 @@
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\bin\Debug\Examen2ªEVAL_GestionContrasenias.exe.config
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\bin\Debug\Examen2ªEVAL_GestionContrasenias.exe
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\bin\Debug\Examen2ªEVAL_GestionContrasenias.pdb
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL_GestionContrasenias.csproj.AssemblyReference.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL_GestionContrasenias.csproj.SuggestedBindingRedirects.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL.AltaAlumno.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL.ConsultaAlumno.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL.Form1.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL.NuevaPass.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Properties.Resources.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL_GestionContrasenias.csproj.GenerateResource.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL_GestionContrasenias.csproj.CoreCompileInputs.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL_GestionContrasenias.exe
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\2ªEVALExamen\obj\Debug\Examen2ªEVAL_GestionContrasenias.pdb

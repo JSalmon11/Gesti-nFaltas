@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"familia_user","familia user","model_js_musicstore_familia","musicstore_user",1,0,0,0
+"familia_advanced","familia advanced","model_js_musicstore_familia","musicstore_advanced",1,1,1,0
+"familia_manager","familia manager","model_js_musicstore_familia","musicstore_manager",1,1,1,1
+"categoria_user","categoria user","model_js_musicstore_categoria","musicstore_user",1,0,0,0
+"categoria_advanced","categoria advanced","model_js_musicstore_categoria","musicstore_advanced",1,1,1,0
+"categoria_manager","categoria manager","model_js_musicstore_categoria","musicstore_manager",1,1,1,1
+"instrumento_user","instrumento user","model_js_musicstore_instrumento","musicstore_user",1,0,0,0
+"instrumento_advanced","instrumento advanced","model_js_musicstore_instrumento","musicstore_advanced",1,1,1,0
+"instrumento_manager","instrumento manager","model_js_musicstore_instrumento","musicstore_manager",1,1,1,1
+"cliente_user","cliente user","model_js_musicstore_cliente","musicstore_user",1,0,0,0
+"cliente_advanced","cliente advanced","model_js_musicstore_cliente","musicstore_advanced",1,1,1,0
+"cliente_manager","cliente manager","model_js_musicstore_cliente","musicstore_manager",1,1,1,1
+"acceso_musicstore_actualizar_stock_usuario","acces_musictore_actualizar_stock_usuario","model_js_musicstore_actualizar_stock","musicstore_user",1,0,0,0
+"acceso_musicstore_actualizar_stock_advanced","acces_musictore_actualizar_stock_advanced","model_js_musicstore_actualizar_stock","musicstore_advanced",1,1,1,0
+"acceso_musicstore_actualizar_stock_manager","acces_musictore_actualizar_stock_manager","model_js_musicstore_actualizar_stock","musicstore_manager",1,1,1,1

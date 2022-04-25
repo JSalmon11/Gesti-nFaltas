@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<h2>Create Object from JSON String</h2>
+	<p id="demo"></p>
+	<script>
+		var txt = '{"name":"John", "age":31, "pets":[{ "animal":"dog", "name":"Fido" }, { "animal":"cat", "name":"Felix" }, { "animal":"hamster", "name":"Lightning" }]}';
+		var obj = JSON.parse(txt);
+		document.getElementById("demo").innerHTML = obj.name + ", " + obj.age + ", " + obj.pets[2].animal + ": " + obj.pets[2].name;
+	</script>
+	</body>
+</html>

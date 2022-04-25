@@ -1,0 +1,10 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\bin\Debug\DatosClientes.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\bin\Debug\DatosClientes.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\bin\Debug\DatosClientes.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.Form1.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\DatosClientes\obj\Debug\DatosClientes.pdb

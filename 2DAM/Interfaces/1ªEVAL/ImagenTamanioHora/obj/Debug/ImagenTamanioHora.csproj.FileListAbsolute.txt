@@ -1,0 +1,10 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\bin\Debug\ImagenTamanioHora.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\bin\Debug\ImagenTamanioHora.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\bin\Debug\ImagenTamanioHora.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.Form1.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\ImagenTamanioHora\obj\Debug\ImagenTamanioHora.pdb

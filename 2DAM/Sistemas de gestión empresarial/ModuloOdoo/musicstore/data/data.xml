@@ -1,0 +1,40 @@
+<odoo>
+    <data noupdate="1">
+            <record id="musicstore_familia_cuerda" model="js.musicstore.familia">
+                <field name="name">Cuerda</field>
+                <field name="description">Familia de instrumentos de cuerda</field>
+            </record>
+            <record id="musicstore_categoria_guitarras" model="js.musicstore.categoria">
+                <field name="name">Guitarras</field>
+                <field name="description">Diferentes modelos de guitarras</field>
+                <field name="familia_id" ref="musicstore_familia_cuerda"></field>
+            </record>-
+            <record id="musicstore_instrumento_1" model="js.musicstore.instrumento">
+                <field name="name">Harley Benton CST-24T Emerald Flame</field>
+                <field name="precio">269</field>
+                <field name="ejemplares">500</field>
+                <field name="fecha_compra">2022-02-09</field>
+                <!--
+                <field name="imagen" type="base64"
+                file="/usr/lib/python3/dist-packages/odoo/extra-addons/MusicStore/static/img/Harley Benton CST-24T Emerald Flame.jpg"></field>
+                -->
+                <field name="categoria_id" ref="musicstore_categoria_guitarras"></field>
+            </record>-
+            <record id="musicstore_familia_viento" model="js.musicstore.familia">
+                <field name="name">Viento</field>
+                <field name="description">Familia de instrumentos de viento</field>
+            </record>
+            <record id="musicstore_familia_percusion" model="js.musicstore.familia">
+                <field name="name">Percusión</field>
+                <field name="description">Familia de instrumentos de percusión</field>
+            </record>
+            <record id="musicstore_familia_percutida" model="js.musicstore.familia">
+                <field name="name">Cuerda percutida</field>
+                <field name="description">Familia de instrumentos de cuerda percutida</field>
+            </record>
+            <record id="musicstore_familia_electronicos" model="js.musicstore.familia">
+                <field name="name">Instrumentos electónicos</field>
+                <field name="description">Familia de instrumentos electónicos</field>
+            </record>
+    </data>
+</odoo>

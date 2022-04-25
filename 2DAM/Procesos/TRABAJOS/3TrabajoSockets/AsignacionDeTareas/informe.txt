@@ -1,0 +1,66 @@
+Trabajador: 1
+Tarea: 15.	Duración: 1 horas.
+Tarea: 261224.	Duración: 3 horas.
+Tarea: 262594.	Duración: 2 horas.
+Tarea: 263156.	Duración: 2 horas.
+Tarea: 264239.	Duración: 3 horas.
+Tarea: 265270.	Duración: 2 horas.
+Tarea: 266191.	Duración: 2 horas.
+Tarea: 266370.	Duración: 2 horas.
+Tarea: 266864.	Duración: 3 horas.
+Tarea: 267268.	Duración: 2 horas.
+Tarea: 269064.	Duración: 1 horas.
+Tarea: 269933.	Duración: 2 horas.
+Tarea: 271218.	Duración: 3 horas.
+Tarea: 272465.	Duración: 3 horas.
+Tarea: 274852.	Duración: 1 horas.
+Tarea: 278083.	Duración: 3 horas.
+Tarea: 279518.	Duración: 1 horas.
+Tarea: 280372.	Duración: 1 horas.
+Tarea: 282309.	Duración: 2 horas.
+Tarea: 283804.	Duración: 1 horas.
+-----------------------------------
+Trabajador: 2
+Tarea: 45.	Duración: 1 horas.
+Tarea: 254926.	Duración: 2 horas.
+Tarea: 257488.	Duración: 2 horas.
+Tarea: 258901.	Duración: 3 horas.
+Tarea: 260841.	Duración: 1 horas.
+Tarea: 262046.	Duración: 2 horas.
+Tarea: 262801.	Duración: 1 horas.
+Tarea: 263596.	Duración: 1 horas.
+Tarea: 264775.	Duración: 3 horas.
+Tarea: 265601.	Duración: 2 horas.
+Tarea: 266236.	Duración: 2 horas.
+Tarea: 267094.	Duración: 1 horas.
+Tarea: 268559.	Duración: 3 horas.
+Tarea: 269279.	Duración: 2 horas.
+Tarea: 270382.	Duración: 1 horas.
+Tarea: 271572.	Duración: 3 horas.
+Tarea: 273857.	Duración: 2 horas.
+Tarea: 276451.	Duración: 3 horas.
+Tarea: 278527.	Duración: 2 horas.
+Tarea: 279720.	Duración: 1 horas.
+Tarea: 281424.	Duración: 2 horas.
+-----------------------------------
+Trabajador: 3
+Tarea: 77.	Duración: 1 horas.
+Tarea: 260299.	Duración: 2 horas.
+Tarea: 262105.	Duración: 3 horas.
+Tarea: 262802.	Duración: 3 horas.
+Tarea: 264180.	Duración: 3 horas.
+Tarea: 265173.	Duración: 2 horas.
+Tarea: 266046.	Duración: 1 horas.
+Tarea: 266465.	Duración: 1 horas.
+Tarea: 267166.	Duración: 2 horas.
+Tarea: 268970.	Duración: 3 horas.
+Tarea: 269993.	Duración: 2 horas.
+Tarea: 271571.	Duración: 3 horas.
+Tarea: 272822.	Duración: 3 horas.
+Tarea: 275590.	Duración: 2 horas.
+Tarea: 278196.	Duración: 1 horas.
+Tarea: 279683.	Duración: 2 horas.
+Tarea: 280912.	Duración: 2 horas.
+Tarea: 282399.	Duración: 3 horas.
+Tarea: 289481.	Duración: 1 horas.
+-----------------------------------

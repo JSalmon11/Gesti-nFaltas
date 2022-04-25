@@ -1,0 +1,20 @@
+package parking;
+
+public class Coche implements Runnable {
+	Datos datos;
+	public Coche (Datos datos) {
+		this.datos=datos;
+	}
+
+	@Override
+	public void run ()
+	{
+		datos.aparcar(Thread.currentThread()+"");
+		try {
+			Thread.sleep( (long)(Math.random()*10000));
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		datos.irse(Thread.currentThread()+"");
+	}
+}

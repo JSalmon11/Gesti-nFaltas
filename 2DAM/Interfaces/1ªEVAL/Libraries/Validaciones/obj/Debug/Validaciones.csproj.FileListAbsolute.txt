@@ -1,0 +1,6 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Libraries\Validaciones\bin\Debug\Validaciones.dll
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Libraries\Validaciones\bin\Debug\Validaciones.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Libraries\Validaciones\obj\Debug\Validaciones.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Libraries\Validaciones\obj\Debug\Validaciones.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Libraries\Validaciones\obj\Debug\Validaciones.dll
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Libraries\Validaciones\obj\Debug\Validaciones.pdb

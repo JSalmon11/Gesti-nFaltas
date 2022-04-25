@@ -1,0 +1,10 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\bin\Debug\FormularioAcceso.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\bin\Debug\FormularioAcceso.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\bin\Debug\FormularioAcceso.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.Form1.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\FormularioAcceso\obj\Debug\FormularioAcceso.pdb

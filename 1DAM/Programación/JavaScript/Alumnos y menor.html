@@ -1,0 +1,32 @@
+<html>
+	<body><meta charset="utf-8">
+		<script>
+
+var iAlumnos   = parseInt (prompt ("Dime el total de alumnos en clase"));
+var sNombre    = new Array(iAlumnos);
+var iEdad 	   = new Array(iAlumnos);
+var sSexo 	   = new Array(iAlumnos);
+var iEdadMenor = 200;
+
+for(i=1;i<=iAlumnos;i++){
+	iEdad[0]	=999
+	sNombre[i] 	= prompt("Nombre:");
+	iEdad[i] 	= parseInt(prompt("Edad:"));
+	sSexo[i] 	= prompt("Sexo:(hombre/mujer)");
+
+		if (sSexo[i]=="hombre") {
+			if(iEdad[i]<iEdadMenor){
+				iEdadMenor = iEdad[i]
+				var menor = sNombre[i]
+			}
+		}
+			if(sSexo[i]=="mujer"&&iEdad[i]<25){
+				document.write("*");
+			}
+	document.write(sNombre[i]+", "+iEdad[i]+" años, "+sSexo[i]+"<br>");
+}
+document.write("El hombre con menor edad es: "+menor);
+
+		</script>
+	</body>
+</html>

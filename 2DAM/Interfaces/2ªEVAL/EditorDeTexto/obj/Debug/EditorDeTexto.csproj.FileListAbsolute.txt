@@ -1,0 +1,35 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\bin\Debug\EditorDeTexto.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\bin\Debug\EditorDeTexto.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\bin\Debug\EditorDeTexto.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.Form1.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.Colores.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\EditorDeTexto\obj\Debug\EditorDeTexto.Fuentes.resources
+D:\Compartir\EditorDeTexto\bin\Debug\EditorDeTexto.exe.config
+D:\Compartir\EditorDeTexto\bin\Debug\EditorDeTexto.exe
+D:\Compartir\EditorDeTexto\bin\Debug\EditorDeTexto.pdb
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.AssemblyReference.cache
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.Colores.resources
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.Editor.resources
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.Fuentes.resources
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.Properties.Resources.resources
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.GenerateResource.cache
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.CoreCompileInputs.cache
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.exe
+D:\Compartir\EditorDeTexto\obj\Debug\EditorDeTexto.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\bin\Debug\EditorDeTexto.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\bin\Debug\EditorDeTexto.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\bin\Debug\EditorDeTexto.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.Buscador.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.Editor.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\EditorDeTexto\obj\Debug\EditorDeTexto.pdb

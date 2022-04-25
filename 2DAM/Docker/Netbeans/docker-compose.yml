@@ -1,0 +1,21 @@
+version: '3.3' 
+services:
+  netbeans-docker:
+    image: openkbs/netbeans-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: netbeans-docker
+    environment:
+      - DISPLAY=host.docker.internal:0
+    group_add:
+      - audio
+      - video
+    volumes:
+      - /etc/hosts:/etc/hosts 
+      - /dev/shm:/dev/shm
+      - /tmp/.X11-unix:/tmp/.X11-unix 
+      - ./.cache:/home/developer/.cache
+      - ./.netbeans:/home/developer/.netbeans
+      - ./data:/home/developer/data
+      - ./workspace:/home/developer/workspace

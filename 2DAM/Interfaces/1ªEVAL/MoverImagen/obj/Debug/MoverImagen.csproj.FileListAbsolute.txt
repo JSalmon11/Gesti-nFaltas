@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.Form1.resources
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.Properties.Resources.resources
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\MoverImagen\bin\Debug\MoverImagen.exe.config
+C:\Users\Alumno\source\repos\MoverImagen\bin\Debug\MoverImagen.exe
+C:\Users\Alumno\source\repos\MoverImagen\bin\Debug\MoverImagen.pdb
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.exe
+C:\Users\Alumno\source\repos\MoverImagen\obj\Debug\MoverImagen.pdb

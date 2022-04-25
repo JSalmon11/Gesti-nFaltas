@@ -1,0 +1,8 @@
+package parking;
+
+public class e implements Runnable {
+	@Override
+	public void run() {
+		
+	}// run()
+}

@@ -1,0 +1,35 @@
+<html>
+	<body><meta charset="utf-8">
+		<script>
+
+while (true){
+	var sNombre 	  = prompt("Introduce el nombre");
+	if (sNombre=="FIN") break;
+	var sNacionalidad = prompt("Nacionalidad (E/X)");
+	var iCurso 		  = parseInt(prompt ("Introduce el curso (1/2/3/4/5"));
+	if (iCurso==0) break;
+
+	if(sNacionalidad=="E"){
+		switch(iCurso){
+			case 1: document.write("Básico<br>");break;
+			case 2: document.write("Intermedio<br>");break;
+			case 3: document.write("Intermedio<br>");break;
+			case 4: document.write("Avanzado<br>");break;
+			case 5: document.write("Final<br>");break;
+			default : document.write("Curso INEXISTENTE<br>")
+		}
+	}else{
+		switch(iCurso){
+			case 1: document.write("Básico<br>");break;
+			case 2: document.write("Basico<br>");break;
+			case 3: document.write("Intermedio<br>");break;
+			case 4: document.write("Avanzado<br>");break;
+			case 5: document.write("Final<br>");break;
+			default : document.write("Curso INEXISTENTE<br>")
+		}
+	}
+}
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<odoo>
+    <data>
+    <record id="musicstore_actualizar_stock_form" model="ir.ui.view">
+        <field name="name">musicstore.actualizar.stock.form</field>
+        <field name="model">js.musicstore.actualizar.stock</field>
+        <field name="arch" type="xml">
+            <form string="Wizard form">
+                <sheet>
+                    <group>
+                        <field name="stock_new"/>
+                    </group>
+                    <group>
+                        <field name="active_instrumento_ids"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button name="actualizar_stock" type="object" string="Actualizar stock" class="btn-primary"/>
+                    <button special="cancel" string="Cancelar" class="btn-secundary"/> 
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <act_window id="action_wizard_actualizar_stock"
+        name="Actualizar stock"
+        binding_model="js.musicstore.instrumento"
+        res_model="js.musicstore.actualizar.stock"
+        view_mode="form"
+        target="new"/>
+    </data>
+</odoo>

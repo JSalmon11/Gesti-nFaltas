@@ -1,0 +1,82 @@
+
+/*Fuentes*/
+@font-face{
+font-family: 'LINKIN PARK';
+src: url('../SRC/FONT/LINKIN PARK.ttf');
+	}
+@font-face{
+font-family: 'LinkinParkOriginal';
+src: url('../SRC/FONT/LinkinParkOriginal.ttf');
+	}
+@font-face{
+font-family: 'Exo2';
+src: url('../SRC/FONT/Exo2-SemiBold.ttf');
+
+/*body*/
+	}
+	body{
+		padding-bottom: 700px;
+		text-align: justify;
+		background-image: url('../SRC/IMG/Fondo.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		cursor: url(../SRC/Cursores/cursor.cur),auto;
+	}
+/*títulos*/
+	h2{
+		padding: 20px;
+		margin: 50px;
+		font-size: 30px;
+		text-decoration: underline;
+		color: pink;
+		font-family: 'LinkinParkOriginal', Impact, cursive;
+	}
+	h3{
+		padding: 20px;
+		margin: 50px;
+		font-size: 30px;
+		text-decoration: underline;
+		color: purple;
+		font-family: 'LinkinParkOriginal', Impact, cursive;
+	}
+	h4{
+		padding: 20px;
+		margin: 50px;
+		font-size: 30px;
+		text-decoration: underline;
+		font-family: 'LinkinParkOriginal', Impact, cursive;
+	}
+	h5{
+		font-size: 30px;
+		margin-left: 100px;
+		text-decoration: underline;
+		font-family: 'LinkinParkOriginal', Impact, cursive;
+		color: rgb(11,200,16);
+	}
+
+/*párrafos y énfasis*/
+	p{
+		padding: 40px;
+		font-family: Exo2,LinkinParkOriginal,Impact;
+		font-size: 16px;
+		color: white;
+	}
+	em{
+		font-size: 19px;
+		text-decoration: underline;
+		color: blue;
+		font-family: 'LinkinParkOriginal', Impact, cursive;
+	}
+
+/*clases*/
+	.int{
+		text-align: center;
+		margin: 50px;
+		font-size: 90px;
+		color:rgb(0,255,0);
+		text-shadow: 4px 4px rgb(0,255,200);
+		font-family: 'LINKIN PARK', Impact, sans-serif;
+	}

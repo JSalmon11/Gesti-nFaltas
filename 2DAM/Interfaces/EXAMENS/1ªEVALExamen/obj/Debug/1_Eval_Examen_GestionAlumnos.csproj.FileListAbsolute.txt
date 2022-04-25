@@ -1,0 +1,13 @@
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\1_Eval_Examen_GestionAlumnos.csproj.AssemblyReference.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\1_Eval_Examen_GestionAlumnos.csproj.SuggestedBindingRedirects.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\ExamenGestionAlumnos.accesoUsuarios.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\ExamenGestionAlumnos.QuejasYReclamaciones.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\ExamenGestionAlumnos.Registro.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\1_Eval_Examen_GestionAlumnos.csproj.GenerateResource.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\1_Eval_Examen_GestionAlumnos.csproj.CoreCompileInputs.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\bin\Debug\1_Eval_Examen_GestionAlumnos.exe.config
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\bin\Debug\1_Eval_Examen_GestionAlumnos.exe
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\bin\Debug\1_Eval_Examen_GestionAlumnos.pdb
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\Properties.Resources.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\1_Eval_Examen_GestionAlumnos.exe
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\EXAMENS\1ªEVALExamen\obj\Debug\1_Eval_Examen_GestionAlumnos.pdb

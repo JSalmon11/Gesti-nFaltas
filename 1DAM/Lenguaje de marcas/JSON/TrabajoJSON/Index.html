@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Biblioteca municipal</title>
+		<style type="text/css">
+	body{
+		background-image: url("Fondo.jpg");
+        padding-bottom: 700px;
+		text-align: justify;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+	}
+	h1{
+		color: rgb(154, 47, 255);
+		text-align: center;
+		text-decoration: underline;
+	}
+	p{
+		color: white;
+		text-align: justify;
+	}
+    .div1{
+        opacity: 0.89;
+        background-color: rgb(30, 26, 243);
+        border-radius: 20px;
+        padding: 10px;
+        margin: 50px;
+        padding-bottom: 650px;
+    }
+    #p1{
+        width: 15%;
+		float: left;
+        padding: 15px;
+        margin-right: 50px;
+        margin-left: 80px;
+    }
+    #p2{
+        width: 15%;
+		float: left;
+        padding: 15px;
+        margin-right: 50px;
+        margin-left: 80px;
+    }
+    #p3{
+        width: 15%;
+		float: left;
+        padding: 15px;
+        margin-right: 50px;
+        margin-left: 80px;
+    }
+    #p4{
+        float: left;
+        width: 15%;
+        padding: 15px;
+        margin-left: 80px;
+    }
+		</style>
+	</head>
+	<body>
+	<h1>BIBLIOTECA</h1>
+	<div class="div1">
+		<p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+	</div>
+	<script>
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+		var obj = JSON.parse(this.responseText);
+			document.getElementById("p1").innerHTML +="<br>•" + obj.generos[0].name + " (Nº Autores: " + obj.generos[0].autores.length + "):" + "<br>";
+			for (var j = 0; j < obj.generos[0].autores.length; j++) {
+				document.getElementById("p1").innerHTML += "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;-" + obj.generos[0].autores[j].name + " (Nº Obras: " + obj.generos[0].autores[j].obras.length + "):" + "<br>";
+				for (var k = 0; k < obj.generos[0].autores[j].obras.length; k++) {
+					document.getElementById("p1").innerHTML += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obj.generos[0].autores[j].obras[k] + "<br>";				
+				}	
+			}
+            document.getElementById("p2").innerHTML +="<br>•" + obj.generos[1].name + " (Nº Autores: " + obj.generos[1].autores.length + "):" + "<br>";
+			for (var j = 0; j < obj.generos[1].autores.length; j++) {
+				document.getElementById("p2").innerHTML += "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;-" + obj.generos[1].autores[j].name + " (Nº Obras: " + obj.generos[1].autores[j].obras.length + "):" + "<br>";
+				for (var k = 0; k < obj.generos[1].autores[j].obras.length; k++) {
+					document.getElementById("p2").innerHTML += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obj.generos[1].autores[j].obras[k] + "<br>";				
+				}	
+			}
+            document.getElementById("p3").innerHTML +="<br>•" + obj.generos[2].name + " (Nº Autores: " + obj.generos[2].autores.length + "):" + "<br>";
+			for (var j = 0; j < obj.generos[2].autores.length; j++) {
+				document.getElementById("p3").innerHTML += "<br>" + "&nbsp;&nbsp;&nbsp;-" + obj.generos[2].autores[j].name + " (Nº Obras: " + obj.generos[2].autores[j].obras.length + "):" + "<br>";
+				for (var k = 0; k < obj.generos[2].autores[j].obras.length; k++) {
+					document.getElementById("p3").innerHTML += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obj.generos[2].autores[j].obras[k] + "<br>";				
+				}	
+			}
+            document.getElementById("p4").innerHTML +="<br>•" + obj.generos[3].name + " (Nº Autores: " + obj.generos[3].autores.length + "):" + "<br>";
+			for (var j = 0; j < obj.generos[3].autores.length; j++) {
+				document.getElementById("p4").innerHTML += "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;-" + obj.generos[3].autores[j].name + " (Nº Obras: " + obj.generos[3].autores[j].obras.length + "):" + "<br>";
+				for (var k = 0; k < obj.generos[3].autores[j].obras.length; k++) {
+					document.getElementById("p4").innerHTML += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obj.generos[3].autores[j].obras[k] + "<br>";				
+				}	
+			}
+		}
+		};
+		xmlhttp.open("GET", "Biblioteca.Json", true);
+		xmlhttp.send();
+	</script>
+	</body>
+</html>

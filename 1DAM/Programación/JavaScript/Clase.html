@@ -1,0 +1,63 @@
+<html><body><script>
+
+		var sNombre;		sNombre = prompt("¿Como te llamas?");
+		var sGrado;			sGrado = prompt("¿Que grado estas cursando?");
+		var sNombreCurso; 	sNombreCurso = prompt("¿Como se llama el curso en el que estas?");
+		sNombreCurso = sNombreCurso.toUpperCase();
+		document.write("Hola alumno " + sNombre + " estas curasando el " + sGrado + " de " + sNombreCurso + "<br>");
+		var sGrupo; 		sGrupo = prompt("¿En que grupo estas?");
+		var sSubgrupo; 		sSubgrupo = prompt("¿A que subgrupo perteneces?");
+		var iSubgrupo;		iSubgrupo = parseInt(iSubgrupo);
+		var sSemana;		sSemana = prompt ("¿semana 1 o 2?");
+		var sDiaSemana; 	sDiaSemana = prompt("Dime en que dia estamos");
+
+if (sGrupo == "A" || sGrupo == "a") {
+	document.write("Perteneces al grupo " + sGrupo + " del ciclo formativo de " + sGrado + " " + sNombreCurso + "-" + sGrupo + "<br>");
+		} 
+
+else {
+
+	if (sGrupo == "B" || sGrupo == "b") 
+	document.write("Perteneces al grupo " + sGrupo + " del ciclo formativo de " + sGrado + " " + sNombreCurso + "-" + sGrupo + "<br>");
+		}
+			
+		if (sSubgrupo == "1")
+		document.write("Como perteneces al primer subgrupo esta semana solo debes ir Lunes, Miercoles y Viernes" + "<br>");
+
+			if ((sDiaSemana == "lunes" || sDiaSemana == "LUNES" || sDiaSemana == "Lunes") && (sSubgrupo == "1"))
+			document.write("Lunes: Te toca clase online" + "<br>");
+
+				if ((sDiaSemana == "martes" || sDiaSemana == "MARTES" || sDiaSemana == "Martes") && (sSubgrupo == "1"))
+				document.write("Martes: Hoy debes ir a clase" + "<br>");
+
+					if ((sDiaSemana == "miercoles" || sDiaSemana == "MIERCOLES" || sDiaSemana == "Miercoles") && (sSubgrupo == "1"))
+					document.write("Miercoles: Te toca clase online" + "<br>");
+
+						if ((sDiaSemana == "jueves" || sDiaSemana == "JUEVES" || sDiaSemana == "Jueves") && (sSubgrupo == "1"))
+						document.write("Jueves: Hoy debes ir a clase" + "<br>");
+
+							if ((sDiaSemana == "viernes" || sDiaSemana == "VIERNES" || sDiaSemana == "Viernes") && (sSubgrupo == "1"))
+							document.write("Viernes: Te toca clase online" + "<br>");
+
+
+		else 
+			if (sSubgrupo == "2")
+				document.write("Como perteneces al segundo subgrupo esta semana solo debes ir Martes y Jueves" + "<br>");	
+
+				if ((sDiaSemana == "lunes" || sDiaSemana == "LUNES" || sDiaSemana == "Lunes") && (sSubgrupo == "1"))
+				document.write("Lunes: Hoy debes ir a clase" + "<br>");
+
+					if ((sDiaSemana == "martes" || sDiaSemana == "MARTES" || sDiaSemana == "Martes") && (sSubgrupo == "1"))
+					document.write("Martes: Te toca clase online" + "<br>");
+
+						if ((sDiaSemana == "miercoles" || sDiaSemana == "MIERCOLES" || sDiaSemana == "Miercoles") && (sSubgrupo == "1"))
+						document.write("Miercoles: Hoy debes ir a clase" + "<br>");
+
+							if ((sDiaSemana == "jueves" || sDiaSemana == "JUEVES" || sDiaSemana == "Jueves") && (sSubgrupo == "1"))
+							document.write("Jueves: Te toca clase online" + "<br>");
+
+								if ((sDiaSemana == "viernes" || sDiaSemana == "VIERNES" || sDiaSemana == "Viernes") && (sSubgrupo == "1"))
+								document.write("Viernes: Hoy debes ir a clase" + "<br>");
+
+
+</script></body></html>

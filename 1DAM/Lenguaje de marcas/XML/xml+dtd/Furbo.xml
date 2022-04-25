@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE campeonato [
+<!ELEMENT campeonato (jornada+)>
+<!ELEMENT jornada (encuentro+)>
+<!ELEMENT encuentro EMPTY>
+<!ATTLIST campeonato DIVISION CDATA #REQUIRED
+                                        SAISON CDATA #REQUIRED>
+<!ATTLIST jornada NUMERO CDATA #REQUIRED
+                                fecha CDATA #REQUIRED>
+<!ATTLIST encuentro casa CDATA #REQUIRED
+                                    forastero CDATA #REQUIRED
+                                    golesCasa CDATA #REQUIRED
+                                    golesForastero CDATA #REQUIRED>
+]>
+<campeonato DIVISION="1" SAISON="2020-2021">
+  <jornada NUMERO="1" fecha="01/08/2020">
+    <encuentro casa="Auxerre" forastero="Nice" golesCasa="1" golesForastero="2"/>
+    <encuentro casa="Guingamp" forastero="Marseille" golesCasa="0" golesForastero="1"/>
+    <encuentro casa="Lens" forastero="LeMans" golesCasa="0" golesForastero="0"/>
+    <encuentro casa="Lille" forastero="Lyon" golesCasa="1" golesForastero="0"/>
+    <encuentro casa="Metz" forastero="Ajaccio" golesCasa="0" golesForastero="1"/>
+    <encuentro casa="Monaco" forastero="Bordeaux" golesCasa="2" golesForastero="0"/>
+    <encuentro casa="Montpellier" forastero="Rennes" golesCasa="1" golesForastero="1"/>
+    <encuentro casa="ParisSG" forastero="Bastia" golesCasa="0" golesForastero="0"/>
+    <encuentro casa="Sochaux" forastero="Nantes" golesCasa="2" golesForastero="1"/>
+    <encuentro casa="Toulouse" forastero="Strasbourg" golesCasa="1" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="2" fecha="08/08/2020">
+    <encuentro casa="Bastia" forastero="Metz" golesCasa="0" golesForastero="2"/>
+    <encuentro casa="Bordeaux" forastero="Montpellier" golesCasa="0" golesForastero="1"/>
+    <encuentro casa="LeMans" forastero="Ajaccio" golesCasa="0" golesForastero="1"/>
+    <encuentro casa="Lille" forastero="ParisSG" golesCasa="1" golesForastero="0"/>
+    <encuentro casa="Lyon" forastero="Monaco" golesCasa="3" golesForastero="1"/>
+    <encuentro casa="Marseille" forastero="Auxerre" golesCasa="1" golesForastero="0"/>
+    <encuentro casa="Nantes" forastero="Lens" golesCasa="2" golesForastero="0"/>
+    <encuentro casa="Nice" forastero="Sochaux" golesCasa="1" golesForastero="0"/>
+    <encuentro casa="Rennes" forastero="Toulouse" golesCasa="1" golesForastero="0"/>
+    <encuentro casa="Strasbourg" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="3" fecha="16/08/2020">
+    <encuentro casa="Ajaccio" forastero="Nantes" golesCasa="1" golesForastero="3"/>
+    <encuentro casa="Auxerre" forastero="Strasbourg" golesCasa="3" golesForastero="2"/>
+    <encuentro casa="Guingamp" forastero="Bordeaux" golesCasa="1" golesForastero="3"/>
+    <encuentro casa="LeMans" forastero="Nice" golesCasa="1" golesForastero="1"/>
+    <encuentro casa="Lens" forastero="Marseille" golesCasa="2" golesForastero="1"/>
+    <encuentro casa="Metz" forastero="ParisSG" golesCasa="0" golesForastero="1"/>
+    <encuentro casa="Monaco" forastero="Bastia" golesCasa="2" golesForastero="0"/>
+    <encuentro casa="Montpellier" forastero="Lyon" golesCasa="0" golesForastero="2"/>
+    <encuentro casa="Sochaux" forastero="Rennes" golesCasa="1" golesForastero="1"/>
+    <encuentro casa="Toulouse" forastero="Lille" golesCasa="0" golesForastero="3"/>
+  </jornada>
+  <jornada NUMERO="4" fecha="23/08/2020">
+  <encuentro casa="Bastia" forastero="Montpellier" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Auxerre" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Metz" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lyon" forastero="Toulouse" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Sochaux" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Nantes" forastero="LeMans" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="Ajaccio" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="ParisSG" forastero="Monaco" golesCasa="2" golesForastero="4"/>
+  <encuentro casa="Rennes" forastero="Guingamp" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Lens" golesCasa="0" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="5" fecha="30/08/2020">
+  <encuentro casa="Ajaccio" forastero="Marseille" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Auxerre" forastero="Rennes" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Guingamp" forastero="Lyon" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="LeMans" forastero="Strasbourg" golesCasa="0" golesForastero="3"/>
+  <encuentro casa="Lens" forastero="Nice" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Monaco" forastero="Metz" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Montpellier" forastero="ParisSG" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Nantes" forastero="Bordeaux" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Lille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="Bastia" golesCasa="0" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="6" fecha="13/09/2020">
+  <encuentro casa="Bastia" forastero="Guingamp" golesCasa="4" golesForastero="2"/>
+  <encuentro casa="Bordeaux" forastero="Sochaux" golesCasa="1" golesForastero="3"/>
+  <encuentro casa="Lille" forastero="Monaco" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lyon" forastero="Auxerre" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="LeMans" golesCasa="5" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Montpellier" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="Nantes" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="Toulouse" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Lens" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Ajaccio" golesCasa="3" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="7" fecha="20/09/2020">
+  <encuentro casa="Ajaccio" forastero="Rennes" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="Bastia" golesCasa="4" golesForastero="1"/>
+  <encuentro casa="Guingamp" forastero="ParisSG" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="LeMans" forastero="Lyon" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Lens" forastero="Bordeaux" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Montpellier" forastero="Monaco" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Nantes" forastero="Marseille" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="Lille" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Strasbourg" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Toulouse" forastero="Metz" golesCasa="1" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="8" fecha="27/09/2020">
+  <encuentro casa="Bastia" forastero="Sochaux" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Ajaccio" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Montpellier" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lyon" forastero="Lens" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Nice" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Guingamp" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="Toulouse" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="Auxerre" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Rennes" forastero="LeMans" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Nantes" golesCasa="1" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="9" fecha="04/10/2020">
+  <encuentro casa="Ajaccio" forastero="Lyon" golesCasa="2" golesForastero="4"/>
+  <encuentro casa="Auxerre" forastero="Lille" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="Monaco" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="LeMans" forastero="Bordeaux" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Lens" forastero="Metz" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Marseille" forastero="Bastia" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Rennes" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="Strasbourg" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="ParisSG" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="Montpellier" golesCasa="2" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="10" fecha="18/10/2020">
+  <encuentro casa="Bastia" forastero="Lens" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Bordeaux" forastero="Toulouse" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Lille" forastero="Ajaccio" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Lyon" forastero="Sochaux" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Nantes" golesCasa="1" golesForastero="3"/>
+  <encuentro casa="Monaco" forastero="Auxerre" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="LeMans" golesCasa="5" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Nice" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Marseille" golesCasa="4" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="11" fecha="25/10/2020">
+  <encuentro casa="Ajaccio" forastero="ParisSG" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="Montpellier" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Guingamp" forastero="Toulouse" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="LeMans" forastero="Bastia" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="Lille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="Rennes" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Nantes" forastero="Lyon" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="Bordeaux" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Monaco" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Strasbourg" forastero="Metz" golesCasa="0" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="12" fecha="01/11/2020">
+  <encuentro casa="Bastia" forastero="Ajaccio" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Bordeaux" forastero="Marseille" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Guingamp" golesCasa="1" golesForastero="3"/>
+  <encuentro casa="Lyon" forastero="Nice" golesCasa="5" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Sochaux" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="LeMans" golesCasa="4" golesForastero="2"/>
+  <encuentro casa="Montpellier" forastero="Nantes" golesCasa="4" golesForastero="1"/>
+  <encuentro casa="ParisSG" forastero="Lens" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Strasbourg" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="Auxerre" golesCasa="0" golesForastero="3"/>
+  </jornada>
+  <jornada NUMERO="13" fecha="08/11/2020">
+  <encuentro casa="Ajaccio" forastero="Monaco" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Auxerre" forastero="Guingamp" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="LeMans" forastero="Metz" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lens" forastero="Montpellier" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Marseille" forastero="Lyon" golesCasa="1" golesForastero="4"/>
+  <encuentro casa="Nantes" forastero="ParisSG" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="Bastia" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Rennes" forastero="Lille" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="Sochaux" forastero="Toulouse" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Strasbourg" forastero="Bordeaux" golesCasa="1" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="14" fecha="22/11/2020">
+  <encuentro casa="Bastia" forastero="Nantes" golesCasa="1" golesForastero="3"/>
+  <encuentro casa="Bordeaux" forastero="Rennes" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Guingamp" forastero="Sochaux" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Lille" forastero="Marseille" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Lyon" forastero="Strasbourg" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Auxerre" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Monaco" forastero="Lens" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Montpellier" forastero="Ajaccio" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="ParisSG" forastero="Nice" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Toulouse" forastero="LeMans" golesCasa="1" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="15" fecha="29/11/2020">
+  <encuentro casa="Ajaccio" forastero="Toulouse" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Bordeaux" forastero="Bastia" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="LeMans" forastero="Montpellier" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Lens" forastero="Guingamp" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="ParisSG" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Monaco" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="Metz" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Lyon" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Auxerre" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Strasbourg" forastero="Lille" golesCasa="2" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="16" fecha="03/12/2020">
+  <encuentro casa="Auxerre" forastero="LeMans" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Bastia" forastero="Rennes" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Guingamp" forastero="Ajaccio" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Nantes" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lyon" forastero="Bordeaux" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Marseille" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="Nice" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Sochaux" golesCasa="1" golesForastero="3"/>
+  <encuentro casa="ParisSG" forastero="Strasbourg" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Toulouse" forastero="Lens" golesCasa="1" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="17" fecha="06/12/2020">
+  <encuentro casa="Ajaccio" forastero="Auxerre" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Bordeaux" forastero="Lille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="LeMans" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lens" forastero="Sochaux" golesCasa="0" golesForastero="3"/>
+  <encuentro casa="Lyon" forastero="Metz" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="Monaco" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Nantes" forastero="Toulouse" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="Montpellier" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="ParisSG" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Strasbourg" forastero="Bastia" golesCasa="4" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="18" fecha="13/12/2020">
+  <encuentro casa="Auxerre" forastero="Lens" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Bastia" forastero="Lyon" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="Nantes" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lille" forastero="LeMans" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Rennes" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="Strasbourg" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Montpellier" forastero="Marseille" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="ParisSG" forastero="Bordeaux" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Ajaccio" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Toulouse" forastero="Nice" golesCasa="1" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="19" fecha="20/12/2020">
+  <encuentro casa="Ajaccio" forastero="Lens" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Bastia" forastero="Lille" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Bordeaux" forastero="Metz" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="LeMans" forastero="Sochaux" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="Lyon" forastero="ParisSG" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="Toulouse" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Nantes" forastero="Auxerre" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Rennes" forastero="Monaco" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Montpellier" golesCasa="4" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="20" fecha="10/01/2021">
+  <encuentro casa="Ajaccio" forastero="LeMans" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="Marseille" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="Strasbourg" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Lens" forastero="Nantes" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Bastia" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Monaco" forastero="Lyon" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Montpellier" forastero="Bordeaux" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="ParisSG" forastero="Lille" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Nice" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Toulouse" forastero="Rennes" golesCasa="2" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="21" fecha="17/01/2021">
+  <encuentro casa="Bastia" forastero="Monaco" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Toulouse" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Lyon" forastero="Montpellier" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Lens" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Nantes" forastero="Ajaccio" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="LeMans" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="ParisSG" forastero="Metz" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Rennes" forastero="Sochaux" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Auxerre" golesCasa="0" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="22" fecha="31/01/2021">
+  <encuentro casa="Ajaccio" forastero="Nice" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Auxerre" forastero="Bordeaux" golesCasa="5" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="Rennes" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="LeMans" forastero="Nantes" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="Strasbourg" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Lille" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="ParisSG" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Bastia" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Marseille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="Lyon" golesCasa="0" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="23" fecha="07/02/2021">
+  <encuentro casa="Bastia" forastero="Toulouse" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Nantes" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Sochaux" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lyon" forastero="Guingamp" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="Ajaccio" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Monaco" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Nice" forastero="Lens" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="Montpellier" golesCasa="6" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Auxerre" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Strasbourg" forastero="LeMans" golesCasa="3" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="24" fecha="14/02/2021">
+  <encuentro casa="Ajaccio" forastero="Strasbourg" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="Lyon" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Guingamp" forastero="Bastia" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="LeMans" forastero="Marseille" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Lens" forastero="Rennes" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="Lille" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Metz" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Nice" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Bordeaux" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="ParisSG" golesCasa="0" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="25" fecha="21/02/2021">
+  <encuentro casa="Bastia" forastero="Auxerre" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Lens" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Nice" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Lyon" forastero="LeMans" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Nantes" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Toulouse" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Monaco" forastero="Montpellier" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Rennes" forastero="Ajaccio" golesCasa="4" golesForastero="1"/>
+  <encuentro casa="Strasbourg" forastero="Sochaux" golesCasa="0" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="26" fecha="28/02/2021">
+  <encuentro casa="Ajaccio" forastero="Bordeaux" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="ParisSG" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Guingamp" forastero="Metz" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="LeMans" forastero="Rennes" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="Lens" forastero="Lyon" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Lille" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Nantes" forastero="Strasbourg" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="Marseille" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Bastia" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="Monaco" golesCasa="1" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="27" fecha="06/03/2021">
+  <encuentro casa="Bastia" forastero="Marseille" golesCasa="4" golesForastero="1"/>
+  <encuentro casa="Bordeaux" forastero="LeMans" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Auxerre" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Lyon" forastero="Ajaccio" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Lens" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Monaco" forastero="Guingamp" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Toulouse" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="ParisSG" forastero="Sochaux" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Nantes" golesCasa="0" golesForastero="3"/>
+  <encuentro casa="Strasbourg" forastero="Nice" golesCasa="2" golesForastero="2"/>
+  </jornada>
+  <jornada NUMERO="28" fecha="13/03/2021">
+  <encuentro casa="Ajaccio" forastero="Lille" golesCasa="0" golesForastero="3"/>
+  <encuentro casa="Auxerre" forastero="Monaco" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="Montpellier" golesCasa="4" golesForastero="3"/>
+  <encuentro casa="LeMans" forastero="ParisSG" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="Bastia" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Strasbourg" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Nantes" forastero="Metz" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="Nice" forastero="Rennes" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Lyon" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Toulouse" forastero="Bordeaux" golesCasa="1" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="29" fecha="20/03/2021">
+  <encuentro casa="Bastia" forastero="LeMans" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Nice" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lille" forastero="Lens" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lyon" forastero="Nantes" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Strasbourg" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Monaco" forastero="Sochaux" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="Auxerre" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="Ajaccio" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Rennes" forastero="Marseille" golesCasa="4" golesForastero="3"/>
+  <encuentro casa="Toulouse" forastero="Guingamp" golesCasa="0" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="30" fecha="27/03/2021">
+  <encuentro casa="Ajaccio" forastero="Bastia" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="Toulouse" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Guingamp" forastero="Lille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="LeMans" forastero="Monaco" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="ParisSG" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Bordeaux" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Montpellier" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Nice" forastero="Lyon" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Metz" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Rennes" golesCasa="0" golesForastero="3"/>
+  </jornada>
+  <jornada NUMERO="31" fecha="03/04/2021">
+  <encuentro casa="Bastia" forastero="Nice" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Bordeaux" forastero="Strasbourg" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Guingamp" forastero="Auxerre" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="Lille" forastero="Rennes" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Lyon" forastero="Marseille" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Metz" forastero="LeMans" golesCasa="5" golesForastero="0"/>
+  <encuentro casa="Monaco" forastero="Ajaccio" golesCasa="3" golesForastero="3"/>
+  <encuentro casa="Montpellier" forastero="Lens" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="ParisSG" forastero="Nantes" golesCasa="3" golesForastero="2"/>
+  <encuentro casa="Toulouse" forastero="Sochaux" golesCasa="0" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="32" fecha="10/04/2021">
+  <encuentro casa="Ajaccio" forastero="Montpellier" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Auxerre" forastero="Metz" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="LeMans" forastero="Toulouse" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="Monaco" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Lille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Bastia" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Nice" forastero="ParisSG" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Rennes" forastero="Bordeaux" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Sochaux" forastero="Guingamp" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Lyon" golesCasa="0" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="33" fecha="24/04/2021">
+  <encuentro casa="Auxerre" forastero="Sochaux" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Bastia" forastero="Bordeaux" golesCasa="0" golesForastero="2"/>
+  <encuentro casa="Guingamp" forastero="Lens" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Strasbourg" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Lyon" forastero="Rennes" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Nice" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Monaco" forastero="Nantes" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Montpellier" forastero="LeMans" golesCasa="0" golesForastero="3"/>
+  <encuentro casa="ParisSG" forastero="Marseille" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Toulouse" forastero="Ajaccio" golesCasa="3" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="34" fecha="01/05/2021">
+  <encuentro casa="Ajaccio" forastero="Guingamp" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="Lyon" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="LeMans" forastero="Auxerre" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="Toulouse" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Marseille" forastero="Metz" golesCasa="0" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Lille" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="Monaco" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Rennes" forastero="Bastia" golesCasa="4" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Montpellier" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Strasbourg" forastero="ParisSG" golesCasa="0" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="35" fecha="08/05/2021">
+  <encuentro casa="Auxerre" forastero="Ajaccio" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Bastia" forastero="Strasbourg" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="LeMans" golesCasa="2" golesForastero="4"/>
+  <encuentro casa="Lille" forastero="Bordeaux" golesCasa="2" golesForastero="1"/>
+  <encuentro casa="Metz" forastero="Lyon" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Monaco" forastero="Marseille" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Montpellier" forastero="Nice" golesCasa="2" golesForastero="2"/>
+  <encuentro casa="ParisSG" forastero="Rennes" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="Lens" golesCasa="0" golesForastero="3"/>
+  <encuentro casa="Toulouse" forastero="Nantes" golesCasa="0" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="36" fecha="12/05/2021">
+  <encuentro casa="Ajaccio" forastero="Sochaux" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Bordeaux" forastero="ParisSG" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="LeMans" forastero="Lille" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Lens" forastero="Auxerre" golesCasa="1" golesForastero="3"/>
+  <encuentro casa="Lyon" forastero="Bastia" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Marseille" forastero="Montpellier" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Nantes" forastero="Guingamp" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Nice" forastero="Toulouse" golesCasa="1" golesForastero="1"/>
+  <encuentro casa="Rennes" forastero="Metz" golesCasa="0" golesForastero="0"/>
+  <encuentro casa="Strasbourg" forastero="Monaco" golesCasa="0" golesForastero="0"/>
+  </jornada>
+  <jornada NUMERO="37" fecha="15/05/2021">
+  <encuentro casa="Auxerre" forastero="Nantes" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Guingamp" forastero="Nice" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="Lens" forastero="Ajaccio" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Lille" forastero="Bastia" golesCasa="2" golesForastero="0"/>
+  <encuentro casa="Metz" forastero="Bordeaux" golesCasa="3" golesForastero="1"/>
+  <encuentro casa="Monaco" forastero="Rennes" golesCasa="1" golesForastero="4"/>
+  <encuentro casa="Montpellier" forastero="Strasbourg" golesCasa="1" golesForastero="2"/>
+  <encuentro casa="ParisSG" forastero="Lyon" golesCasa="1" golesForastero="0"/>
+  <encuentro casa="Sochaux" forastero="LeMans" golesCasa="3" golesForastero="0"/>
+  <encuentro casa="Toulouse" forastero="Marseille" golesCasa="2" golesForastero="1"/>
+  </jornada>
+  <jornada NUMERO="38" fecha="23/05/2021">
+  <encuentro casa="Ajaccio" forastero="Metz" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Bastia" forastero="ParisSG" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Bordeaux" forastero="Monaco" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="LeMans" forastero="Lens" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Lyon" forastero="Lille" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Marseille" forastero="Guingamp" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Nantes" forastero="Sochaux" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Nice" forastero="Auxerre" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Rennes" forastero="Montpellier" golesCasa="-" golesForastero="-"/>
+  <encuentro casa="Strasbourg" forastero="Toulouse" golesCasa="-" golesForastero="-"/>
+  </jornada>
+</campeonato>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="PreferencesExportWizard">
+		<item key="" value="F:\JORGE\Google Drive\Mis cosa de clase\2DAM\1Utilities\ECLIPSE\FullExport.epf"/>
+		<item key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="true"/>
+		<item key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID" value="true"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="F:\JORGE\Google Drive\Mis cosa de clase\2DAM\1Utilities\ECLIPSE\FullExport.epf"/>
+			<item value="F:\JORGE\Google Drive\Mis cosa de clase\2DAM\1Utilities\ECLIPSE\full export netbeans.epf"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="actionSetFilter" value="true"/>
+		<item key="internalFilter" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
+	</section>
+</section>

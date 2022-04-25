@@ -1,0 +1,47 @@
+<html><body><script>
+
+var nombre = prompt("Dime tu nombre");
+
+var respuesta = prompt ("Ahora dime tu edad");
+
+var número = parseInt (respuesta);
+
+
+if (respuesta >= 18) {
+	if (respuesta < 75) {
+	document.write(" Perfecto puedes sacarte el carnet " +nombre);
+}
+	else{
+		var mas75 = prompt("¿Has pasado revision de vista y oido recientemente?" +nombre);
+
+			if (mas75 == "sí" || mas75 == "Sí" || mas75 == "Si" || mas75 == "si") {
+			document.write(" Perfecto puedes sacarte el carnet " +nombre);
+		}
+
+			else{
+		document.write (" No puedes sacarte el carnet");
+
+		}
+}
+
+	}
+
+else { 
+
+	if (respuesta < 18) {
+	document.write("Eres menor, no puedes sacarte el carnet");
+	 
+
+		if (respuesta >= 16 && respuesta <= 17){
+		document.write (" pero puedes hacer el examen teorico");
+		
+			if (respuesta < 16) {
+			document.write("Eres menor, no puedes sacarte el carnet");
+		}
+	}
+	
+	
+}
+}
+
+</script></body></html>

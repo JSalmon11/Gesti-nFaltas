@@ -1,0 +1,11 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\bin\Debug\Inmobiliaria(AccesoDirecto).exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\bin\Debug\Inmobiliaria(AccesoDirecto).exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\bin\Debug\Inmobiliaria(AccesoDirecto).pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria(AccesoDirecto).csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria_AccesoDirecto_.FormPrincipal.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria_AccesoDirecto_.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria_AccesoDirecto_.RegistroInmueble.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria(AccesoDirecto).csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria(AccesoDirecto).csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria(AccesoDirecto).exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Inmobiliaria(AccesoDirecto)\obj\Debug\Inmobiliaria(AccesoDirecto).pdb

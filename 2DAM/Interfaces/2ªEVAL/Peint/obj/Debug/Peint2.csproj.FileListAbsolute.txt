@@ -1,0 +1,21 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\bin\Debug\Peint.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\bin\Debug\Peint.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\bin\Debug\Peint.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.Peint2.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.pdb
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\bin\Debug\Peint.exe.config
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\bin\Debug\Peint.exe
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\bin\Debug\Peint.pdb
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.AssemblyReference.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.SuggestedBindingRedirects.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.Peint2.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.Properties.Resources.resources
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.GenerateResource.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint2.csproj.CoreCompileInputs.cache
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.exe
+E:\Descargas\GitJaf\Proyectos-DAM\2DAM\Interfaces\2ªEVAL\Peint\obj\Debug\Peint.pdb

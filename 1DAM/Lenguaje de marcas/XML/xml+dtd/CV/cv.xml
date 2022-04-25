@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE cv PUBLIC "DTD" "cv.dtd">
+<cv>
+<datospersonales>
+  <apellidos>Ojeda Torres</apellidos>
+  <nombre>Sergio</nombre>
+  <nacimiento>22/03/2002</nacimiento>
+  <direccion>Calle de la Buena Vida, 23</direccion>
+  <codigo_postal>20517</codigo_postal>
+  <ciudad>Madriz</ciudad>
+  <pais>Espania</pais>
+  <telefono tipo="movil">123456679</telefono>
+  <email>buenavida123@gmail.com</email>
+</datospersonales>
+<cursos>
+  <curso fecha_inicio="Ayer" fecha_fin="Hoy" nombre="Sergio" descripcion="aburrido"/>
+</cursos>
+<conocimientos>
+  <tecnico nombre="Sergio" descripcion="buenisimo"/>
+  <idioma nombre="ingles" nivel="B2"/>
+</conocimientos>
+<experiencia_profesional fecha_inicio="Ayer" fecha_fin="Hoy" empresa="HalaMadrid" cargo="recogepelotas">
+  <puesto>
+    <funciones>
+      <funcion>Trabajar</funcion>
+    </funciones>
+    <tecnologias>
+      <tecnologia>Moderna</tecnologia>
+    </tecnologias>
+    </puesto>
+</experiencia_profesional>
+</cv>

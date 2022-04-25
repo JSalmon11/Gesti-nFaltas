@@ -1,0 +1,40 @@
+<!ELEMENT cv (datospersonales, cursos, conocimientos, experiencia_profesional)>
+<!ELEMENT datospersonales
+ (apellidos, nombre, nacimiento, direccion?, codigo_postal?, ciudad?, pais?, telefono?, email?)>
+<!ELEMENT cursos (curso+)>
+<!ELEMENT conocimientos (tecnico*, idioma*)>
+<!ELEMENT experiencia_profesional (puesto+)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono tipo (fijo | movil) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT curso EMPTY>
+<!ATTLIST curso
+   fecha_inicio CDATA #REQUIRED
+   fecha_fin CDATA #IMPLIED
+   nombre CDATA #REQUIRED
+   descripcion CDATA #IMPLIED>
+<!ELEMENT tecnico EMPTY>
+<!ATTLIST tecnico
+   nombre CDATA #REQUIRED
+   descripcion CDATA #IMPLIED>
+<!ELEMENT idioma EMPTY>
+<!ATTLIST idioma
+   nombre CDATA #REQUIRED
+   nivel (A1|A2|B1|B2|C1|C2) #REQUIRED>
+<!ELEMENT puesto (funciones, tecnologias)>
+<!ATTLIST experiencia_profesional
+   fecha_inicio CDATA #REQUIRED
+   fecha_fin CDATA #IMPLIED
+   empresa  CDATA #REQUIRED
+   cargo CDATA #REQUIRED>
+<!ELEMENT funciones (funcion+)>
+<!ELEMENT tecnologias (tecnologia+)>
+<!ELEMENT funcion (#PCDATA)>
+<!ELEMENT tecnologia (#PCDATA)>

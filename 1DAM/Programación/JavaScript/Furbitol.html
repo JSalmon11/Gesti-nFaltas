@@ -1,0 +1,29 @@
+<html>
+	<body><meta charset="utf-8">
+		<script>
+
+var iEquipos   				   = parseInt (prompt ("Dime el total equipos"));
+var sNombre    				   = new Array(iEquipos);
+var iNumeroGolesMarcados 	   = new Array(iEquipos);
+var iNumeroGolesEncajados 	   = new Array(iEquipos);
+var iEquipoMasGoles			   = 0;
+
+for(i=1;i<=iEquipos;i++){
+	sNombre[i] 					= prompt("Nombre del equipo");
+	iNumeroGolesMarcados[i] 	= parseInt(prompt("Número de goles marcados"));
+	iNumeroGolesEncajados[i] 	= parseInt(prompt("Número de goles encajados"));
+
+		if (iNumeroGolesMarcados[i]>10) {
+			if(iNumeroGolesMarcados[i]>iEquipoMasGoles){
+				iEquipoMasGoles = iNumeroGolesMarcados[i]
+				var sMasGoles = sNombre[i]
+			}
+		}
+
+	document.write("Equipo: "+sNombre[i]+". "+"Goles a favor: "+iNumeroGolesMarcados[i]+". "+"Goles en contra: "+iNumeroGolesEncajados[i]+".<br>");
+}
+	document.write("El equipo más goleador es: "+sMasGoles);
+
+		</script>
+	</body>
+</html>

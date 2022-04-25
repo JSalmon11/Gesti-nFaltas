@@ -1,0 +1,6 @@
+certificados.p12 contiene una clave pública y una privada
+importados.keystore contiene solamente la clave pública
+La clave del certificado certificados.p12: "fnmt"
+Alias del usuario: "español español juan - dni 00000000t's fnmt-rcm id"
+La clave del almacén importados.keystore: "369258"
+Alias del usuario: "publica"

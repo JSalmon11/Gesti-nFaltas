@@ -1,0 +1,4 @@
+keytool -genkey -alias pruebas -keystore almacen.pk12 -storetype pkcs12
+
+keytool -export -alias pruebas -file file.cer -keystore almacen.pk12
+

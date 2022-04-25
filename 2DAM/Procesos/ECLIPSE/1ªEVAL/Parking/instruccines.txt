@@ -1,0 +1,16 @@
+Datos:
+	Contiene el estado del parking (String[])
+	Permnite ocupar plaza (consumir)
+	Permite liberar plaza (producir)
+	registro de plazas libre en variable
+
+Coche(productor y consumidor a la vez):
+	Pide plaza
+	Datos(consumir)
+	Espera un tiempo aleatorio
+	Libera la plaza
+	Espera otra vez
+
+Principal:
+	Crea datos
+	Crea hilos y los pone en marcha

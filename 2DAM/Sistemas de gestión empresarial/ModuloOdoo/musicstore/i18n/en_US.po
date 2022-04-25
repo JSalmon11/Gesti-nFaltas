@@ -1,0 +1,333 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* musicstore
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 15:37+0000\n"
+"PO-Revision-Date: 2022-02-25 16:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: musicstore
+#: model:ir.actions.act_window,name:musicstore.action_wizard_actualizar_stock
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_actualizar_stock_form
+msgid "Actualizar stock"
+msgstr "Stock update"
+
+#. module: musicstore
+#: model:ir.actions.act_window,name:musicstore.musicstore_categoria_action_window
+msgid "CATEGORIAS"
+msgstr "CATEGORIES"
+
+#. module: musicstore
+#: model:ir.actions.act_window,name:musicstore.musicstore_cliente_action_window
+msgid "CLIENTES"
+msgstr "CUSTOMERS"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_actualizar_stock_form
+msgid "Cancelar"
+msgstr "Cancel"
+
+#. module: musicstore
+#: model:ir.ui.menu,name:musicstore.musicstore_submenu_categoria
+msgid "Categorias"
+msgstr "Categories"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__categoria_id
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_inst_search_view
+msgid "Categoría"
+msgstr "Category"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_instrumento_kanban
+msgid "Categoría:"
+msgstr "Category:"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__categoria_ids
+msgid "Categorías"
+msgstr "Categories"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__active
+msgid "Cliente activo"
+msgstr "Active customer"
+
+#. module: musicstore
+#: model:ir.ui.menu,name:musicstore.musicstore_menu_clientes
+msgid "Clientes"
+msgstr "Customers"
+
+#. module: musicstore
+#: model:ir.model,name:musicstore.model_js_musicstore_cliente
+msgid "Clientes de la  tienda de instrumentos"
+msgstr "Customers of the music store"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__create_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__create_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__create_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__create_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__create_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__create_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__create_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__create_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__description
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__description
+msgid "Descripción"
+msgstr "Description"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__display_name
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__display_name
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__display_name
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__display_name
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.actions.act_window,name:musicstore.musicstore_familia_action_window
+msgid "FAMILIA"
+msgstr "FAMILY"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__familia_id
+msgid "Familia"
+msgstr "Family"
+
+#. module: musicstore
+#: model:ir.ui.menu,name:musicstore.musicstore_submenu_familia
+msgid "Familias"
+msgstr "Families"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__fecha_compra
+msgid "Fecha de compra"
+msgstr "Date of purchase"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__fecha_venta
+msgid "Fecha de venta"
+msgstr "Sold date"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_cliente_form
+msgid "Formulario cliente"
+msgstr "Customer form"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_inst_search_view
+msgid "Gama alta"
+msgstr "Expensive"
+
+#. module: musicstore
+#: model:ir.module.category,description:musicstore.musicstore_id
+msgid "Gestión de tienda de instrumentos"
+msgstr "Instrument store management"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__id
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__id
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__id
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__id
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__id
+msgid "ID"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.actions.act_window,name:musicstore.musicstore_instrumento_action_window
+msgid "INSTRUMENTOS"
+msgstr "INSTRUMENTS"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__imagen
+msgid "Imagen"
+msgstr "Image"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__name
+msgid "Instrumento"
+msgstr "Instrument"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__active_instrumento_ids
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__instrumento_ids
+msgid "Instrumentos"
+msgstr "Instruments"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__instrumento_ids
+msgid "Instrumentos comprados"
+msgstr "Purchased instruments"
+
+#. module: musicstore
+#: model:ir.ui.menu,name:musicstore.musicstore_submenu_instrumento
+msgid "Instrumentos/Clientes"
+msgstr "Instruments/Customers"
+
+#. module: musicstore
+#: model:ir.model.fields,help:musicstore.field_js_musicstore_instrumento__name
+msgid "Introduce el instrumento"
+msgstr "Type the instrument"
+
+#. module: musicstore
+#: model:ir.model.fields,help:musicstore.field_js_musicstore_categoria__name
+msgid "Introduce el nombre de la categoria"
+msgstr "Type the category name"
+
+#. module: musicstore
+#: model:ir.model.fields,help:musicstore.field_js_musicstore_familia__name
+msgid "Introduce el nombre de la familia"
+msgstr "Type de family name"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock____last_update
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria____last_update
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente____last_update
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia____last_update
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__write_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__write_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__write_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__write_uid
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__write_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__write_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__write_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__write_date
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_inst_search_view
+msgid "Modelo"
+msgstr "Model"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_instrumento_kanban
+msgid "Modelo:"
+msgstr "Model:"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__name
+msgid "Name"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_categoria__name
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_familia__name
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_cliente__country_id
+msgid "País"
+msgstr "Country"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__precio
+msgid "Precio"
+msgstr "Price"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_instrumento_kanban
+msgid "Precio:"
+msgstr "Price:"
+
+#. module: musicstore
+#: model:ir.model.fields,help:musicstore.field_js_musicstore_instrumento__imagen
+msgid "Seleccionar imagen aquí"
+msgstr "Select image"
+
+#. module: musicstore
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_actualizar_stock__stock_new
+#: model:ir.model.fields,field_description:musicstore.field_js_musicstore_instrumento__ejemplares
+msgid "Stock"
+msgstr ""
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_instrumento_kanban
+msgid "Stock:"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.module.category,name:musicstore.musicstore_id
+#: model:ir.ui.menu,name:musicstore.musicstore_menu_root
+msgid "Tienda de instrumentos"
+msgstr "Music store"
+
+#. module: musicstore
+#: model:res.groups,name:musicstore.musicstore_manager
+msgid "Tienda de instrumentos / Responsable"
+msgstr "Music store / Manager"
+
+#. module: musicstore
+#: model:res.groups,name:musicstore.musicstore_advanced
+msgid "Tienda de instrumentos / Usuario avanzado"
+msgstr "Music store / Advanced user"
+
+#. module: musicstore
+#: model:res.groups,name:musicstore.musicstore_user
+msgid "Tienda de instrumentos / Usuario básico"
+msgstr "Music store / Basic user"
+
+#. module: musicstore
+#: model_terms:ir.ui.view,arch_db:musicstore.musicstore_actualizar_stock_form
+msgid "Wizard form"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.ui.menu,name:musicstore.musicstore_menu_instrumentos
+msgid "instrumentos"
+msgstr "instruments"
+
+#. module: musicstore
+#: model:ir.model,name:musicstore.model_js_musicstore_actualizar_stock
+msgid "js.musicstore.actualizar.stock"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model,name:musicstore.model_js_musicstore_categoria
+msgid "js.musicstore.categoria"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model,name:musicstore.model_js_musicstore_familia
+msgid "js.musicstore.familia"
+msgstr ""
+
+#. module: musicstore
+#: model:ir.model,name:musicstore.model_js_musicstore_instrumento
+msgid "js.musicstore.instrumento"
+msgstr ""

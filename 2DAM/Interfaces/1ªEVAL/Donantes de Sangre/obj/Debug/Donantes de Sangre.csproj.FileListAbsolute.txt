@@ -1,0 +1,10 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\bin\Debug\Donantes de Sangre.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\bin\Debug\Donantes de Sangre.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\bin\Debug\Donantes de Sangre.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes de Sangre.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes_de_Sangre.GestionDonantes.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes_de_Sangre.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes de Sangre.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes de Sangre.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes de Sangre.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Donantes de Sangre\obj\Debug\Donantes de Sangre.pdb

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF8">
+		<title>Prueba formulario</title>
+	</head>
+	<body>
+		<form>
+			Nombre: <input type="text" id="texto" name="nombre" onblur="escribirNombre()" >
+			<p id="p1"></p>
+
+			<label><input type="radio" value="Inglés" 	name="idioma" 	id="Inglés" 	onclick="escribirIdioma()"/> Inglés	 </label>
+			<label><input type="radio" value="Alemán" 	name="idioma" 	id="Alemán" 	onclick="escribirIdioma()"/> Alemán  </label>
+			<label><input type="radio" value="Francés" 	name="idioma" 	id="Francés" 	onclick="escribirIdioma()"/> Francés </label>
+			<p id="p2"></p>			
+
+			<label><input type="checkbox"	value="Mujer" 	name="sexo" id="Mujer"	onclick="escribirsexo()"/> Mujer  </label>
+			<label><input type="checkbox"	value="Hombre" 	name="sexo" id="Hombre"	onclick="escribirsexo()"/> Hombre </label>
+			<p id="p3"></p>
+			<p id="p4"></p>
+
+			<select id="opciones" name="opciones" onchange="escribirContinente()">
+				<option value="0">Selecciona una opción</option>
+				<option value="1">Europa</option>
+				<option value="2">América</option>
+				<option value="3">Asia y Oceanía</option>
+				<option value="4">África</option>
+			</select>
+			<p id="p5"></p>
+		</form>
+		<script>
+			function escribirNombre(){		
+				var texto = document.getElementById("texto");
+				var parrafo=document.getElementById("p1");
+				p1.innerHTML= texto.value;
+			}
+
+			function escribirIdioma(){
+				var elementos = document.getElementsByName("idioma");
+				for(var i=0; i<elementos.length; i++) {
+					if (elementos[i].checked) 
+						document.getElementById("p2").innerHTML = elementos[i].value;
+				}
+			}
+
+			function escribirsexo(){
+				var elementos = document.getElementsByName("sexo");
+				 		if (elementos[0].checked) {
+				 			document.getElementById("p3").innerHTML = elementos[0].value;
+				 		}else{
+				 			document.getElementById("p3").innerHTML = "";
+				 		}
+
+				 		if (elementos[1].checked) {
+				 			document.getElementById("p4").innerHTML = elementos[1].value;
+				 		}else{
+				 			document.getElementById("p4").innerHTML = "";
+				 		}
+				} 
+			
+			function escribirContinente(){
+				var lista = document.getElementById("opciones");
+				var indiceSeleccionado = lista.selectedIndex;
+				var opcionSeleccionada = lista.options[indiceSeleccionado];
+				var textoSeleccionado = opcionSeleccionada.text;
+				var valorSeleccionado = opcionSeleccionada.value;
+				var valorSeleccionado = lista.options[lista.selectedIndex].value;
+				var valorSeleccionado = lista.options[lista.selectedIndex].text;
+				document.getElementById("p5").innerHTML= opcionSeleccionada.text;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;res&apos; in &apos;HTTP.ServerThread.componerRespuesta(...)&apos; to &apos;archivoToSend&apos;&#x0D;&#x0A;- Original project: &apos;HTTP_Server&apos;&#x0D;&#x0A;- Original element: &apos;HTTP.ServerThread.componerRespuesta(String).res&apos;&#x0D;&#x0A;- Renamed element: &apos;res&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;res&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;HTTP{ServerThread.java[ServerThread~componerRespuesta~QString;@res!2036!2066!2043!2045!\[B!0!false" name="archivoToSend" references="true" stamp="1644429255059" version="1.0"/>
+</session>

@@ -1,0 +1,59 @@
+<html><body><script type="text/javascript">
+
+/*El programa consiste en ver qué descuento va a tener cada alumno que se matricula en el instituto en función de sus características personales y el curso en el que se matricula.
+
+0) El descuento inicial es 0.
+1) Si tiene < 19 años tiene un 10% de Descuento más.
+2) Si reside en Madrid tiene un 5% más de descuento.
+3) Si Está matriculado en un ciclo de informática tiene un 3% más.
+4) Si está matriculado en DAM tiene un 2% más
+5) Si está matriculado en 1º curso de Dam tiene un 1% más.
+
+6) Si está matriculado en la familia de Comercio tiene un 11% más
+7) Si está matriculado en Gestión Administrativa tiene un 11% más
+8) Si está matriculado en el ciclo Comercio Internacional tiene un 12% mas.
+
+A los de 2º curso se les añade un 15% más de descuento.
+A los de 2º curso que sean residentes en madrid se les añade un 16% más.
+*/
+
+var iDescuento	= 0;
+var iEdad 		= parseInt (prompt ("Dime tu edad"));
+var sResidencia = prompt("¿Dónde vives?");
+var sFamilia	= prompt   ("¿En qué familia estás? (informática, comercio)");
+var sCiclo		= prompt   ("¿En qué ciclo estás? (gestión administrativa, comercio internacional, DAM)");
+var iCurso 		= parseInt (prompt   ("¿A qué curso vas? (1/2)"));
+
+if (iEdad < 19){
+	iDescuento = iDescuento+10;
+}
+if ((sResidencia == "Madrid") || (sResidencia == "madrid")){
+	iDescuento = iDescuento+5;
+}
+if (sFamilia == "informática"){
+	iDescuento = iDescuento+3;
+	if (sCiclo == "DAM"){
+		iDescuento = iDescuento+1;
+		if (iCurso == 1){
+			iDescuento = iDescuento+2;
+		} 
+	}
+}   
+if (sFamilia == "comercio"){
+	iDescuento = iDescuento+11;
+	if (sCiclo == "gestión administrativa"){
+		iDescuento = iDescuento+11;
+	}
+	if (sCiclo == "comercio internacional"){
+		iDescuento = iDescuento+12;
+	}
+}
+if (iCurso == 2){
+	iDescuento = iDescuento+15;
+	if ((sResidencia == "Madrid") || (sResidencia == "madrid")){
+		iDescuento = iDescuento+16;
+	}
+}
+document.write ("El descuento total es: " +iDescuento+ "%");
+
+</script></body></html>

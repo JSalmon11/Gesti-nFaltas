@@ -1,0 +1,176 @@
+{
+    "generos": [
+      {
+        "name": "Novela",
+        "autores": [
+            {
+                "name": "Antonio Pino",
+                "obras": [
+                    "Cien años de soledad",
+                    "Turning tiny",
+                    "El caso de bienaventura"
+                ]
+            },
+            {
+                "name": "Jose Luis",
+                "obras": [
+                    "Don Quijote de la Mancha",
+                    "El Gran Gatsby"
+                ]
+            },
+            {
+                "name": "Juan Antonio",
+                "obras": [
+                    "1984"
+                ]
+            },
+            {
+                "name": "Felisa Martín",
+                "obras": [
+                    "El misterio de sringham",
+                    "La piedra filosofal",
+                    "El prisionero de cuenca",
+                    "Asesinato en majadahonda"
+                ]
+            },
+            {
+                "name": "Francisco Larón",
+                "obras": [
+                    "La divina adivina",
+                    "La muerte del rey",
+                    "El príncipe de Bel-Air",
+                    "El duque de Austria",
+                    "La cocinera de la corte",
+                    "El misterio de da Vinci"
+                ]
+            }
+        ]
+      },
+      {
+        "name": "Poesía",
+        "autores": [
+            {
+                "name": "Gustavo Adolfo",
+                "obras": [
+                    "Posibilidades en la sombra",
+                    "Autobús de Fermoselle"
+                ]
+            },
+            {
+                "name": "María Antonia",
+                "obras": [
+                    "Muchacha de Castilla",
+                    "Las voces del mirlo",
+                    "El mar el mar"
+                ]
+            },
+            {
+                "name": "Juan Ramón III",
+                "obras": [
+                    "1967",
+                    "El lirio",
+                    "Poemas al mar",
+                    "Las cenizas"
+
+                ]
+            },
+            {
+                "name": "Lucía García",
+                "obras": [
+                    "Lucía y se apagó",
+                    "La noche"
+                ]
+            }
+        ]
+      },
+      {
+        "name": "Cuentos",
+        "autores": [
+            {
+                "name": "Melissa Garcia",
+                "obras": [
+                    "Los tres cerditos",
+                    "Las tres mellizas"
+                ]
+            },
+            {
+                "name": "Francisco Amber",
+                "obras": [
+                    "Caperucita roja"
+                ]
+            },
+            {
+                "name": "Félix Fernan",
+                "obras": [
+                    "Las aventuras de mirlo",
+                    "Blancanieves y los siete",
+                    "Los siete enanos",
+                    "La historia interminables",
+                    "La historia terminable"
+                ]
+            },
+            {
+                "name": "Benancio Pérez",
+                "obras": [
+                    "La historia",
+                    "Superman y su perro",
+                    "Agallas el perro cobarde",
+                    "El gato con botas"
+                ]
+            }
+        ]
+      },
+      {
+        "name": "Fantasía",
+        "autores": [
+            {
+                "name": "Laura Felim",
+                "obras": [
+                    "Juego de tronos",
+                    "Star Wars",
+                    "El señor de los anillos"
+                ]
+            },
+            {
+                "name": "Stevin Pretiosv",
+                "obras": [
+                    "Cyberpunk 2077",
+                    "La guerra de los 234 años"
+                ]
+            },
+            {
+                "name": "Marcos Ruíz",
+                "obras": [
+                    "El despertar del dragón",
+                    "Los gobblings"
+                ]
+            },
+            {
+                "name": "Marte Sánchez",
+                "obras": [
+                    "Los 4 fantásticos",
+                    "Los vengadores",
+                    "Superhombre"
+                ]
+            },
+            {
+                "name": "Vanessa Gómez",
+                "obras": [
+                    "Los 7 anacrónicos",
+                    "El viajero del tiempo",
+                    "Asesinos espaciales"
+                ]
+            },
+            {
+                "name": "Juan Manolo",
+                "obras": [
+                    "Los marcianos",
+                    "ET",
+                    "Un alien en mi garaje",
+                    "Los supermen"
+                ]
+            }
+        ]   
+      }
+    ]
+  }

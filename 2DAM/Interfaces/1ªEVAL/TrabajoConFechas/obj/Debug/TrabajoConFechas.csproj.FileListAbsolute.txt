@@ -1,0 +1,10 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\bin\Debug\TrabajoConFechas.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\bin\Debug\TrabajoConFechas.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\bin\Debug\TrabajoConFechas.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\TrabajoConFechas\obj\Debug\TrabajoConFechas.Ventana1.resources

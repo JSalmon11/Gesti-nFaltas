@@ -1,0 +1,245 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--FAMILIA-->
+    <record id="musicstore_familia_tree" model="ir.ui.view">
+      <field name="name">musicstore.familia.tree</field>
+      <field name="model">js.musicstore.familia</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="musicstore_familia_form" model="ir.ui.view">
+      <field name="name">musicstore.familia.form</field>
+      <field name="model">js.musicstore.familia</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="categoria_ids">
+              <tree>
+                <field name="name"/>
+              </tree>
+            </field>
+          </group>
+        </form>
+      </field>
+    </record>
+    
+    <!--CATEGORIA-->
+    <record id="musicstore_categoria_tree" model="ir.ui.view">
+      <field name="name">musicstore.categoria.tree</field>
+      <field name="model">js.musicstore.categoria</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="musicstore_categoria_form" model="ir.ui.view">
+      <field name="name">musicstore.categoria.form</field>
+      <field name="model">js.musicstore.categoria</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="familia_id"/>
+            <field name="instrumento_ids">
+            <tree>
+                <field name="name"/>
+                <field name="precio"/>
+                <field name="ejemplares"/>
+              </tree>
+            </field>
+          </group>
+        </form>
+      </field>
+    </record>
+
+<!--INSTRUMENTO-->
+    <record id="musicstore_instrumento_tree" model="ir.ui.view">
+      <field name="name">musicstore.instrumento.tree</field>
+      <field name="model">js.musicstore.instrumento</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="categoria_id"/>
+          <field name="precio"/>
+          <field name="ejemplares"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="musicstore_instrumento_form" model="ir.ui.view">
+      <field name="name">musicstore.instrumento.form</field>
+      <field name="model">js.musicstore.instrumento</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <field name="name"></field>
+          </group>
+          <field name="imagen" widget="image" class="oe _avatar oe_left" options="{'size':[150,400]}"/>
+          <group>
+            <field name="categoria_id"/>
+            <field name="precio"/>
+            <field name="ejemplares"/>
+            <field name="fecha_compra"/>
+          </group>
+        </form>
+      </field>
+    </record>
+    
+    <record id="musicstore_instrumento_kanban" model="ir.ui.view">
+      <field name="name">musicstore.instrumento.kanban</field>
+      <field name="model">js.musicstore.instrumento</field>
+      <field name="type">kanban</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <field name="imagen"/>
+          <field name="name"/>
+          <field name="categoria_id"/>
+          <field name="precio"/>
+          <field name="ejemplares"/>
+          <templates>
+              <t t-name="kanban-box">
+                <div class="oe_kanban_global_click">
+                  <div class="o_kanban_image">
+                    <img t-att-src="kanban_image('js.musicstore.instrumento', 'imagen', record.id.raw_value)"/>
+                  </div>
+                  <div class="oe_kanban_details">
+                    <ul>
+                      <li><h3>Modelo: <field name="name"/></h3></li>
+                      <li>Categoría: <field name="categoria_id"/></li>
+                      <li>Precio: <field name="precio"/>€</li>
+                      <li>Stock: <field name="ejemplares"/></li>
+                    </ul>
+                  </div>
+                </div>
+              </t>
+          </templates>
+          <field name="id" attrs="{'invisible': True}"/>
+        </kanban>
+      </field>
+    </record>
+
+    <record id="musicstore_inst_search_view" model="ir.ui.view">
+      <field name="name">musicstore.inst.search</field>
+      <field name="model">js.musicstore.instrumento</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name" string="Modelo"/>
+          <field name="categoria_id" string="Categoría"/>
+          <filter string="Gama alta" name="caros" domain="[('precio','&gt;',200)]"/>
+        </search>
+      </field>
+    </record>
+
+<!--CLIENTE-->
+    <record id="musicstore_cliente_tree" model="ir.ui.view">
+      <field name="name">musicstore.cliente.tree</field>
+      <field name="model">js.musicstore.cliente</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="active"/>
+          <field name="country_id"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="musicstore_cliente_form" model="ir.ui.view">
+      <field name="name">musicstore.cliente.form</field>
+      <field name="model">js.musicstore.cliente</field>
+      <field name="arch" type="xml">
+        <form string="Formulario cliente">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="country_id"/>
+              <field name="active"/>
+            </group>
+            <group>
+              <field name="instrumento_ids"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+<!--FAMILIA-->
+<record  id="musicstore_familia_action_window" model="ir.actions.act_window">
+  <field name="name">FAMILIA</field>
+  <field name="res_model">js.musicstore.familia</field>
+  <field name="view_mode">tree,form</field>
+</record>
+
+<!--CATEGORIA-->
+    <record  id="musicstore_categoria_action_window" model="ir.actions.act_window">
+      <field name="name">CATEGORIAS</field>
+      <field name="res_model">js.musicstore.categoria</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+<!--instrumento-->
+    <record  id="musicstore_instrumento_action_window" model="ir.actions.act_window">
+      <field name="name">INSTRUMENTOS</field>
+      <field name="res_model">js.musicstore.instrumento</field>
+      <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+<!--CLIENTE-->
+   <record  id="musicstore_cliente_action_window" model="ir.actions.act_window">
+      <field name="name">CLIENTES</field>
+      <field name="res_model">js.musicstore.cliente</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <!-- Top menu item -->
+    <menuitem name="Tienda de instrumentos" id="musicstore_menu_root" groups="musicstore_user"/>
+
+    <!-- submenu -->
+    <!--FAMILIA-->
+    <menuitem name="Familias"
+    id="musicstore_submenu_familia"
+    parent="musicstore_menu_root"
+    action="musicstore_familia_action_window"
+    groups="musicstore_user"/>
+
+    <!--CATEGORIA-->
+    <menuitem name="Categorias"
+    id="musicstore_submenu_categoria"
+    parent="musicstore_menu_root"
+    action="musicstore_categoria_action_window"
+    groups="musicstore_user"/>
+
+    <!--instrumento-->
+    <menuitem name="Instrumentos/Clientes"
+    id="musicstore_submenu_instrumento"
+    parent="musicstore_menu_root"
+    groups="musicstore_user"/>
+
+    <!--menu actions-->
+    
+    <!--INSTRUMENTO-->
+    <menuitem name="Instrumentos"
+    id="musicstore_menu_instrumentos"
+    parent="musicstore_submenu_instrumento"
+     action="musicstore_instrumento_action_window"
+     groups="musicstore_user"/>
+
+    <!--CLIENTE-->
+    <menuitem name="Clientes"
+    id="musicstore_menu_clientes"
+    parent="musicstore_submenu_instrumento"
+    action="musicstore_cliente_action_window"
+    groups="musicstore_user"/>
+  </data>
+</odoo>

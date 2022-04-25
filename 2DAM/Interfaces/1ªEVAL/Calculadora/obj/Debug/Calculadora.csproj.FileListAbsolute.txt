@@ -1,0 +1,10 @@
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\bin\Debug\Calculadora.exe.config
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\bin\Debug\Calculadora.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\bin\Debug\Calculadora.pdb
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.Form1.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.exe
+G:\Mi unidad\Mis cosa de clase\2DAM\Interfaces\Calculadora\obj\Debug\Calculadora.pdb
